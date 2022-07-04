@@ -4,11 +4,9 @@ def no_c(my_string):
     """
     function tha removes all character c and C form a string
     """
-    if my_string:
-        new_string = ""
+    string = ""
 
-        for char in my_string:
-            if char == 'c' and char == 'C'
-                c = c + 1
-            new_string = new_string + char
-        return new_string
+    for char in my_string:
+        if char != 'c' and char != 'C':
+            string = string + char
+    return string
