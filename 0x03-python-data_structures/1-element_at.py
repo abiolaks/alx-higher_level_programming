@@ -12,8 +12,6 @@ def element_at(my_list, idx):
     elif idx > list_len:
         return None
     else:
-        for element in range(list_len):
-            if element == idx:
-                return my_list[element]
+        return my_list[idx]
 
         
