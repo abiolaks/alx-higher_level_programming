@@ -5,9 +5,7 @@ def print_reversed_list_integer(my_list=[]):
     This function prints all integers of a list in reverse order
     """
 
-    new_list = []
+    size = len(my_list) + 1
 
-    for i in range(len(my_list)):
-        a = -1 + i
-        new_list.append(my_list[a])
-        print("{:d}".format(new_list[i]))
+    for i in range(1,size):
+        print("{:d}".format(my_list[-i])
