@@ -5,8 +5,7 @@ def print_matrix_integer(matrix=[[]]):
     write a function that prints a matriz of integers
     """
 
-    for row in matrix:
-        for val in row:
-            print('{:4}'.format(val))
-            print
-
+    for each_list in matrix:
+        for row in each_list:
+            print("{:d}".format(row), end=" ")
+        print()
